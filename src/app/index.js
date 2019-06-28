@@ -10,6 +10,6 @@ client.on('message', message => {
   console.log(message.content);
 });
 
-client.login('NTgwNzYwNTEwMzE2OTM3MjQ2.XOVZsQ.P1k6VbDjoFYEY1JEbxIsr7ddVwE')
+client.login('token')
   .then(() => console.log('logged in'))
   .catch((err) => console.error(err));
